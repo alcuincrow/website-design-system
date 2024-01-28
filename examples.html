@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Open+Sans:ital,wght@0,300;0,400;1,800&family=Spectral:ital,wght@0,400;0,700;1,400&display=swap');
     </style>
@@ -24,87 +25,100 @@
 <body>
     <div id="banner">
         <h1>Examples Style Guide</h1>
-    </div>
-    <div>
         <p>
             This page is for showing off different configurations of Element Styling
         </p>
     </div>
 
     <div id="elementStylesEX">
-        <h3>Element Styling</h3>
-        <div>
-            <h1 class="headingEx">H1: Main page heading.</h1>
+        <div class="exampleCard">
+            <div>
+                <h1 class="headingEx">H1: Main page heading.</h1>
+            </div>
+            <hr>
             <ul>
                 <li>font-weight: Bold</li>
                 <li>font-align: Center</li>
                 <li>font-size: 26px</li>
                 <li>font-family: Cinzel Decorative (serif)</li>
+                <li>margin: 1em;</li>
             </ul>
-            <h2 class="subheading">Subheading</h2>
+        </div>
+        <div class="exampleCard">
+            <div>
+                <h2 class="subheading">Subheading</h2>
+            </div>
+            <hr>
             <ul>
                 <li>font-weight: 400 (reg)</li>
                 <li>text-align: center</li>
                 <li>font-size: 20px</li>
                 <li>font-family: Spectral (serif)</li>
+                <li>margin: 1em;</li>
             </ul>
-            <p class="paraEX">
+        </div>
+        <div class="exampleCard">
+            <p>
                 This is an example paragraph.
                 Just some filler and texting text, could be anything really.
             </p>
+            <hr>
             <ul>
                 <li>font-weight: 300 (light)</li>
                 <li>font-size: 12px</li>
                 <li>font-family: Open Sans (sans-serif)</li>
             </ul>
+        </div>
+        <div class="exampleCard">
             <h1 class="colorHeading">H1: Banner Example with background color</h1>
+            <hr>
             <ul>
                 <li>font-family: Spectral (serif)</li>
                 <li>font-weight: bold</li>
                 <li>font-size: 26px</li>
                 <li>text-align: center</li>
+                <li>width: 100%</li>
                 <li>text-transform: uppercase</li>
                 <li>background-color: #004D33</li>
                 <li>color: #DFE9E6</li>
+                <li>margin: 2em 0em</li>
             </ul>
         </div>
-        <div class="circles">
-            <p>Circle Element</p>
-        </div>
-        <div class="circles">
-            <p>Circle Element</p>
-        </div>
-        <div class="circles">
-            <p>Circle Element</p>
-        </div>
-        <div>
-            <p>
-                Good for images or icons
-            </p>
+        <!--Area for shapes-->
+        <div class="exampleCard">
+            <div class="colorHeading">
+                <h3>Shapes for icons or buttons</h3>
+            </div>
+            <div class="circles">
+                <p>Circle Element</p>
+            </div>
+            <div class="circles">
+                <p>Circle Element</p>
+            </div>
+            <div class="circles">
+                <p>Circle Element</p>
+            </div>
+            <hr>
             <ul>
-                <li>display: inline-block;</li>
+                <li>display: inline-flex;</li>
                 <li>background: #18CADB;</li>
                 <li>background: -moz-linear-gradient(top, #18CADB 0%, #4A38A4 50%, #0B0982 100%);</li>
                 <li>background: -webkit-linear-gradient(top, #18CADB 0%, #4A38A4 50%, #0B0982 100%);</li>
                 <li>background: linear-gradient(to bottom, #18CADB 0%, #4A38A4 50%, #0B0982 100%);</li>
-                <li>text-align: center;</li>
-                <li>height: 150px;</li>
-                <li>width: 150px;</li>
+                <li>justify-content: center;</li>
+                <li>height: 9em;</li>
+                <li>width: 9em;</li>
                 <li>border: 2px solid black;</li>
-                <li>border-radius: 80px;</li>
+                <li>border-radius: 40em;</li>
                 <li>color: #DFE9E6;</li>
-                <li>padding: 4px 3px 0 3px;</li>
-                <li>margin: 5px;</li>
+                <li>padding: .5em;</li>
+                <li>margin: 1em;</li>
                 <li>font-family: 'Open Sans', sans-serif;</li>
             </ul>
         </div>
-    </div>
-
-
-
-    <div class="footer">
-        <h1><a href="https://github.com/alcuincrow/website-design-system">View Source Files On Github</a></h1>
-    </div>
+        <div class="footer">
+            <h5><a href="https://github.com/alcuincrow/website-design-system">View Source Files On Github</a></h5>
+        </div>
 </body>
 
 </html>
